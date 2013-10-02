@@ -2,4 +2,5 @@
 username = Artem Mezhenin <a.mezhenin@gmail.com>
 
 [extensions]
+flow = ~/hgflow.py
 hgk=
