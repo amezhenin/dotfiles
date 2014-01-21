@@ -1,11 +1,9 @@
 [report]
-omit = */migrations/*
+omit = */migrations/*,*/settings.py,*/management/*
 
-[report]
 exclude_lines =
     # Have to re-enable the standard pragma
     pragma: no cover
 
     # Don't complain if tests don't hit defensive assertion code:
     raise NotImplementedError
-
