@@ -28,6 +28,7 @@
 
 [alias]
 	graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+	c = checkout
 
 [push]
 	default = current
